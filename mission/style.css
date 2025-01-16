@@ -9,6 +9,20 @@ body {
     line-height: 1.6;
     height: 100vh;
 }
+.dark {
+    background-color: #333;
+    color: white;
+    
+}
+
+
+.dark h2{
+    color: rgb(160, 212, 237);
+}
+
+.button {
+   transform: translate(80px, -360px);
+}
 
 h2 {
     color: steelblue;
@@ -35,7 +49,6 @@ ol {
     text-align: center;
     padding: 20px;
     border: 1px solid #ccc;
-    background-color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 

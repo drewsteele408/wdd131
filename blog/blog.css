@@ -15,6 +15,11 @@ body {
     background-color: #f9f9f9;
 }
 
+.content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 
 .header-h1 {
     font-family: var(--body-font);
@@ -43,20 +48,21 @@ body {
 
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr; 
-    max-width: 1000px;
+    grid-template-columns: 3fr 1fr; 
+
     
 }
-
+/* 
 
 .book-list {
     display: grid;
+    grid-template-columns: 1fr 2fr;
 }
-
+ */
 
 .book {
     display: grid;
-    grid-template-columns: repeat(3, 450px); 
+    grid-template-columns: 1fr 2fr; 
     padding: 20px;
     gap: 20px;
 }
@@ -67,12 +73,17 @@ main {
     text-align: left;
     border-right: 2px solid var(--gold-color);
     padding-right: 15px;
+    grid-column: 1/2;
 }
 
 .book-meta p {
     margin: 5px 0;
     color: var(--dark-color);
     font-family: var(--body-font);
+}
+
+.book-content {
+    grid-column: 2/3;
 }
 
 
@@ -93,7 +104,7 @@ main {
 }
 
 
-.filter-content {
+#filter {
     padding: 20px;
     color: var(--dark-color);
     

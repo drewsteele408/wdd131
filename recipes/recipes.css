@@ -16,6 +16,10 @@ header {
     border-radius: 4px;
 }
 
+hr {
+    max-width: 1000px;
+}
+
 .media-image img {
     width: 400px;
     object-fit: cover;
@@ -60,24 +64,30 @@ footer a {
 }
 
 
-@media (min-width: 700px) {
+/* @media (min-width: 700px) {
     .media-container {
         flex-direction: row;
     }
-}
+} */
 
 
 @media (min-width: 960px) {
     .media-container {
         max-width: 960px;
         margin: 0 auto;
+        flex-direction: row;
     }
 
     .social {
         text-align: center;
     } 
-
-    .media-container p {
-        align-items: flex-end;
+    
+    .media-content {
+        flex-direction: row;
     }
+   
+    /* .recipe-tag {
+        display: flex;
+        align-content: flex-start;
+    } */
 }

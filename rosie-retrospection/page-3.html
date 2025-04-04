@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet the Band</title>
+    <link href="styles.css" rel="stylesheet">
+    <script defer src="main.js"></script>
+    <meta name="author" content="Andrew Steele"> 
+    <meta name="description" content="Rosie Retrospection Meet the Band page">
+</head>
+<body>
+    
+    <main>
+        <header>
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="page-2.html">Upcoming Shows</a></li>
+                    <li><a href="page-3.html">Meet the Band</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <h1 class="page-3-header">Meet the Band</h1>
+        <p class="page-3-p">Click on any of the band members to learn more about what makes up Rosie Retrospection!</p>
+
+        <div class="band-image-container">
+            <img src="images/rosie_retrospection_cover.JPG" alt="Band Photo" class="band-image">
+              
+            <!-- Hotspot for Drew -->
+            <div class="hotspot" data-member="drew" style="top: 50%; left: 15%;"></div>
+              
+            <!-- Hotspot for Reed -->
+            <div class="hotspot" data-member="reed" style="top: 40%; left: 35%;"></div>
+              
+            <!-- Hotspot for Logan -->
+            <div class="hotspot" data-member="logan" style="top: 20%; left: 50%;"></div>
+              
+            <!-- Hotspot for Chance -->
+            <div class="hotspot" data-member="chance" style="top: 45%; left: 67%;"></div>
+        </div>
+
+        <!-- Modal to show member info -->
+        <div class="modal" id="member-modal">
+            <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="member-name"></h2>
+            <p id="member-info"></p>
+            </div>
+        </div>
+              
+
+    </main>
+    <footer>
+        <p class="footer-copy">© 2025 Rosie Retrospection. Site by Andrew Steele.</p>
+    </footer>
+    
+</body>
+</html>

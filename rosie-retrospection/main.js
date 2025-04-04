@@ -67,7 +67,7 @@ if (modal) {
       }, 
       logan: {
           name: 'Logan Cannon', 
-          info: "Fronts the band, fronts the chaos. Writes lyrics on receipts, napkins, and occasionally other people's arms. Somehow balances emotional devastation with stage banter that could roast you into another dimension. Runs on iced coffee, questionable decisions, and pure stage presence."
+          info: "Fronts the band, fronts the chaos. Writes lyrics on receipts, napkins, and occasionally other people's arms. Somehow balances emotional devastation with stage banter that could roast you into another dimension. Runs on kava, questionable decisions, and pure stage presence."
       },
       chance: {
           name: 'Chance Curtis', 
